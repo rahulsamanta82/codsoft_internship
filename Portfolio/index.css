@@ -1,0 +1,112 @@
+img{
+    border-radius:100%;
+    display:block;
+    margin:auto;
+  }
+  img:hover{
+    scale: 115%;
+    transition: scale 1s;
+  }
+  #namin:hover{
+    scale: 115%;
+    transition: scale 1s;
+  
+  }
+  #arrow{
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+  .menu{
+    background-color: LightSlateGray; 
+    border:5px ridge AliceBlue;
+    width: fit-content;
+    font-size: 23px;
+    color:white;
+    font-weight: bold;
+    position: sticky;
+    top:2px;
+    padding:8px;
+  }
+  .menu td{
+    border-right: 5px ridge AliceBlue;
+  }
+  a:link{
+    color:white;
+    text-decoration: none;
+    font-family:Garamond,serif;
+  }
+  a:active{
+    background:aquamarine;
+    color:bisque;
+  }
+  a:hover{
+    color: lightslategray;
+  }
+  .menu td:hover{
+    background-color: white;
+    border-bottom: 3px solid red;
+    scale:120%;
+    border-right-style: none;
+    
+    transition: scale 1.5s; 
+  }
+  #name1{
+    background-color:DarkSlateGray; 
+    font-size: 25px; 
+    border:2px solid black; 
+    border-bottom-style:hidden; 
+    border-radius:20px 100% 0px 0px;
+  }
+  #name2{
+    background-color:SlateGray; 
+    font-size: 25px; 
+    border:2px solid black; 
+    border-top-style:hidden; 
+    border-bottom-style:hidden;
+  }
+  #name3{
+    background-color:34495E; 
+    color:yellow; 
+    font-size:25px; 
+    border:2px solid black; 
+    border-top-style:hidden; 
+    border-radius:0px 0px 20px 100%;
+  }
+  .heading1{
+    background-color:white; 
+    border:5px inset; 
+    font-size:30px; 
+    padding-bottom:10px; 
+    padding:10px 0px 10px 40px;
+  }
+  .body1{
+    background-color:white; 
+    border:5px outset ; 
+    padding-top:10px; 
+    padding:10px 0px 10px 40px;
+  }
+  #heading2{
+    color:white; 
+    background-color:SlateGray; 
+    border:5px inset gray; 
+    font-size:30px;
+    padding:10px 0px 10px 40px;
+  }
+  #body2{
+    background-color:SlateGray; 
+    border:5px outset gray; 
+    padding-top:10px;
+    padding:0px 40px 10px 40px;
+  }
+  .heading3{
+    color:SlateGray; 
+    font-size:30px; 
+    background-color:White;
+  }
+  .body3{
+    color:LightYellow ; 
+    width:100%; 
+    text-align:left; 
+    font-size:20px;
+  }
